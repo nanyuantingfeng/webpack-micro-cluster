@@ -1,0 +1,39 @@
+{
+  "name": "webpack-micro-cluster",
+  "version": "0.0.1",
+  "description": "multiple webpack instances work together",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanyuantingfeng/webpack-micro-cluster.git"
+  },
+  "keywords": [
+    "webpack",
+    "cluster",
+    "multiple"
+  ],
+  "author": "nanyuantingfeng<nanyuantingfeng@aliyun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanyuantingfeng/webpack-micro-cluster/issues"
+  },
+  "homepage": "https://github.com/nanyuantingfeng/webpack-micro-cluster#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "async-exit-hook": "^2.0.1",
+    "https-loader": "^1.0.1",
+    "is-port-reachable": "^3.0.0",
+    "portfinder": "^1.0.25",
+    "webpack-inject-plugin": "^1.5.4",
+    "webpack-virtual-modules": "^0.2.1",
+    "zeromq": "^6.0.0-beta.6"
+  },
+  "peerDependencies": {
+    "webpack-log": "*"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
