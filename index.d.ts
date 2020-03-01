@@ -3,20 +3,10 @@
  ***************************************************/
 import { Plugin } from 'webpack'
 
-interface MasterOptions {
-  masterName: string
-  injected: string
+export class Master extends Plugin {
+  constructor(options: { masterId: string; injected: string })
 }
 
-interface WorkerOptions {
-  masterName: string
-  workerName: string
-}
-
-export interface Master extends Plugin {
-  new (options: Master): Master
-}
-
-export interface Worker extends Plugin {
-  new (options: WorkerOptions): Worker
+export class Worker extends Plugin {
+  constructor(options: { masterId: string; workerId: string; entry?: string })
 }

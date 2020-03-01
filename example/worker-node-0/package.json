@@ -1,0 +1,14 @@
+{
+  "name": "example-worker-node-0",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --color"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-micro-cluster": "0.0.1"
+  }
+}
