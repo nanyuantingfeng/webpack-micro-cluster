@@ -6,8 +6,6 @@ before_install:
 install:
   - npm install
 script:
-  - npm run test
-  - npm run coveralls
   - npm run publish2npm
 branches:
   only:
@@ -20,4 +18,4 @@ deploy:
     secure: $NPM_TOKEN
   on:
     tags: true
-    repo: nanyuantingfeng/https-loader
+    repo: nanyuantingfeng/webpack-micro-cluster
