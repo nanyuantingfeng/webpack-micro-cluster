@@ -2,7 +2,8 @@
 
 >  multiple webpack instances work together
 
-
+[![Build Status](https://travis-ci.org/nanyuantingfeng/webpack-micro-cluster.svg?branch=master)](https://travis-ci.org/nanyuantingfeng/webpack-micro-cluster)
+[![GitHub repo size](https://img.shields.io/github/repo-size/nanyuantingfeng/webpack-micro-cluster)](https://img.shields.io/github/repo-size/nanyuantingfeng/webpack-micro-cluster)
 
 #### Install
 
@@ -111,5 +112,4 @@ Worker
 * without using any hacks to interfere with the webpack execution logic, you can refer directly to an existing webpack project
 
    
-  
   
