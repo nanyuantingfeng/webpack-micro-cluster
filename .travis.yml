@@ -4,7 +4,7 @@ node_js:
 before_install:
   - printf "registry=https://registry.npmjs.org/\n//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
 install:
-  - npm install
+  - echo "do not need it"
 script:
   - npm run publish2npm
 branches:
