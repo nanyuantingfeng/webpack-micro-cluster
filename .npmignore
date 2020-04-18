@@ -181,3 +181,6 @@ fabric.properties
 .idea/
 .git/
 example/
+.prettierrc
+.travis.yml
+.gitignore
