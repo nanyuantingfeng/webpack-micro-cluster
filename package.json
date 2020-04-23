@@ -1,6 +1,6 @@
 {
   "name": "webpack-micro-cluster",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "multiple webpack instances work together",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -38,6 +38,7 @@
     "webpack-dev-server": "*"
   },
   "devDependencies": {
+    "jest": "^25.4.0",
     "prettier": "^1.19.1"
   }
 }

@@ -31,7 +31,7 @@ module.exports = {
    //...
     new Master({
       masterId: 'demo', // The Name of Master
-      injected: `var __WORKERS__ = window.__WORKERS__ = window.__WORKERS__ || {};`
+      injected: [`var __WORKERS__ = window.__WORKERS__ = window.__WORKERS__ || {};`]
     })
   ]
 }
@@ -73,9 +73,14 @@ Master
 
      the name of master node, provided for configuration file use.it also provides a dist for worker nodes
 
-*  `injected` : `string`
+*  `injected?` : `Array<string | Loader | [string | Loader, IInjectOptions]>`
 
      will be injected into the top of main context . you can put some pre-processing logic .
+        
+     1. `string` : injected Content
+     2. `Loader` :  () => string
+     3. `IInjectOptions` :  [webpack-inject-plugin](https://github.com/adierkens/webpack-inject-plugin) \`s options
+    
 
 
 
